@@ -1,0 +1,26 @@
+<html>
+	<body>
+		<h2>Money Transfers</h2>
+		<h3>A RESTful API for money transfers between accounts.</h3>
+		<h3> Added Features</h3>
+		<list>
+			<ol>Account Money Transfer</ol>
+			<ol>Meaningful HTTP return codes</ol>
+			<ol>Test cases added like </ol>
+				<ul>createTransferAmount</ul>
+				<ul>createTransferToNegativeBalance</ul>
+				<ul></ul>
+				<ul></ul>
+		</list>
+		<p>
+The following request creates a transfer and returns it:</br></br>
+
+    POST localhost:18080/v1/accounts/transfer</br>
+    {</br>
+        "sourceAccountId": "Id-123",</br>
+        "targetAccountId": "Id-1234",</br>
+        "transferAmount": "800"</br>
+    }</br>
+	</p>
+	</body>
+</html>
